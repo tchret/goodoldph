@@ -1,0 +1,22 @@
+{
+  "name": "Good Old PH",
+  "version": "0.0.4",
+  "manifest_version": 2,
+  "description": "Going back to the old Product Hunt layout",
+  "homepage_url": "http://twitter.com/tchret",
+  "icons": {
+    "19": "icons/icon19.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "https://www.producthunt.com/",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.producthunt.com/", "*://*.producthunt.com/my/settings/edit"],
+      "css": ["src/inject/inject.css"],
+      "js": ["src/inject/inject.js"]
+    }
+  ]
+}

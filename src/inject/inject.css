@@ -1,0 +1,68 @@
+.good-old-ph-mode body.m-new-background {
+  background: white !important;
+}
+
+.good-old-ph-mode .page-main .header--legacy-for-hiding-only > [class*="header_"] {
+  padding: 20px 0 !important;
+  border: none;
+  box-shadow: none;
+}
+
+.good-old-ph-mode [class*='fullWidthBox_'] [class*="header_"] {
+  border-bottom: 1px solid rgb(242, 242, 242);
+  box-shadow: none !important;
+  margin: 0 !important;
+  border: 0 !important;
+}
+
+.good-old-ph-mode [class*="constraintWidth_"] {
+  margin-top: 0 !important;
+  max-width: 800px !important;
+}
+
+.good-old-ph-mode [class*="fullWidthBox_"][class*=" box_"] {
+  border: 0 !important;
+  background: none !important;
+}
+
+.good-old-ph-mode [class*="constraintWidth_"] > [class*="menu"] {
+  display: none;
+}
+
+.good-old-ph-mode [class*="content_"] > [class*="sidebar_"] {
+  display: none;
+}
+
+.good-old-ph-mode .posts--group [class*="canvas_"] {
+  padding: 10px !important;
+  margin: 0 -10px;
+  border-radius: 3px;
+}
+
+.good-old-ph-mode [class*="canvas_"] [class*="container_"] {
+  padding: 0;
+  border: none;
+}
+
+.good-old-ph-mode .post-thumbnail {
+  border-radius: 3px !important;
+}
+
+.good-old-ph-mode .post-thumbnail img {
+  border-radius: 3px !important;
+}
+
+/* Fix strange bug on hover */
+.good-old-ph-mode [class*="content_"] [class*='meta_'] {
+  height: 30px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
