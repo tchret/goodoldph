@@ -14,7 +14,14 @@
   ],
   "content_scripts": [
     {
-      "matches": ["*://*.producthunt.com/", "*://*.producthunt.com/my/settings/edit"],
+      "matches": [
+        "*://*.producthunt.com/",
+        "*://*.producthunt.com/my/settings/edit",
+        "*://*.producthunt.com/tech",
+        "*://*.producthunt.com/podcasts",
+        "*://*.producthunt.com/books",
+        "*://*.producthunt.com/games"
+      ],
       "css": ["src/inject/inject.css"],
       "js": ["src/inject/inject.js"]
     }

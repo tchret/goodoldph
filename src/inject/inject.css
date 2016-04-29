@@ -1,4 +1,5 @@
-.good-old-ph-mode body.m-new-background {
+.good-old-ph-mode body.m-new-background,
+.good-old-ph-mode body {
   background: white !important;
 }
 
